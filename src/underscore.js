@@ -1678,6 +1678,5 @@ define([
     return String(this._wrapped);
   };
 
-  skylark.itg = skyalrk.itg || {};
-  return skylark.itg.underscore = _;
+  return skylark.attach("itg.underscore",_);
 });
